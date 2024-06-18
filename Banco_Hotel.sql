@@ -25,7 +25,7 @@ CREATE TABLE trabalho_hotel.Hotel (
     Nome VARCHAR(255)not null,
     Endereco VARCHAR(255)not null,
     Telefon bigint not null,
-    Classificacao numeric(1,1),
+    Classificacao float,
     Preco_Medio_por_pessoa numeric(10,2)not null,
     CNPJ bigint PRIMARY KEY
 );
